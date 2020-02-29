@@ -1,10 +1,6 @@
-# 部署方式
-## 每次改完代码必须在命令行运行以下代码才能正确请求JS和CSS
+## 在本地命令行运行以下代码
 ```
-parcel build public/index.html --public-url .
-git init
-gst
-git add .
-git commit -v
-git push
+node server.js 8888
 ```
+打开 http://localhost:8888 
+查看
